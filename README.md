@@ -11,7 +11,7 @@ discord
 ## Other requirements
 chromedriver
 <br />
-.env file with email and password
+.env file with facebook email and password, and discord bot token
 
 
 ## Contact

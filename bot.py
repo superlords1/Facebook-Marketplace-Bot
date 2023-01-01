@@ -13,7 +13,7 @@ def get_top(num):
     PATH = "C:\\Users\\vince\\chromedriver.exe"
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}
-    #chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless')
     chrome_options.add_experimental_option("prefs",prefs)
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(service=Service(PATH), chrome_options=chrome_options)
@@ -59,7 +59,7 @@ def get_recent(num):
     PATH = "C:\\Users\\vince\\chromedriver.exe"
     chrome_options = webdriver.ChromeOptions()
     prefs = {"profile.default_content_setting_values.notifications" : 2}
-    #chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless')
     chrome_options.add_experimental_option("prefs",prefs)
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     driver = webdriver.Chrome(service=Service(PATH), chrome_options=chrome_options)

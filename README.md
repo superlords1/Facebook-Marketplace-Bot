@@ -13,7 +13,8 @@ chromedriver
 <br />
 .env file with facebook email and password, and discord bot token
 
-
+## Example
+![Screenshot](example.png)
 ## Contact
 Vincent Quach - vincentquach397@yahoo.com
 <br />
